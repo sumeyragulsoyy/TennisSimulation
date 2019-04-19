@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "order": 1,
+      "player_id": 8,
+      "gained_experience": 920,
+      "total_experience": 1020
+    },
+    {
+      "order": 2,
+      "player_id": 15,
+      "gained_experience": 844,
+      "total_experience": 935
+    },
+    {
+      "order": 3,
+      "player_id": 12,
+      "gained_experience": 692,
+      "total_experience": 764
+    },
+    {
+      "order": 4,
+      "player_id": 4,
+      "gained_experience": 656,
+      "total_experience": 726
+    },
+    {
+      "order": 5,
+      "player_id": 5,
+      "gained_experience": 630,
+      "total_experience": 680
+    },
+    {
+      "order": 6,
+      "player_id": 7,
+      "gained_experience": 478,
+      "total_experience": 568
+    },
+    {
+      "order": 7,
+      "player_id": 9,
+      "gained_experience": 468,
+      "total_experience": 502
+    },
+    {
+      "order": 8,
+      "player_id": 13,
+      "gained_experience": 414,
+      "total_experience": 429
+    },
+    {
+      "order": 9,
+      "player_id": 11,
+      "gained_experience": 406,
+      "total_experience": 471
+    },
+    {
+      "order": 10,
+      "player_id": 6,
+      "gained_experience": 325,
+      "total_experience": 365
+    },
+    {
+      "order": 11,
+      "player_id": 2,
+      "gained_experience": 315,
+      "total_experience": 345
+    },
+    {
+      "order": 12,
+      "player_id": 3,
+      "gained_experience": 307,
+      "total_experience": 357
+    },
+    {
+      "order": 13,
+      "player_id": 10,
+      "gained_experience": 217,
+      "total_experience": 271
+    },
+    {
+      "order": 14,
+      "player_id": 14,
+      "gained_experience": 172,
+      "total_experience": 206
+    },
+    {
+      "order": 15,
+      "player_id": 1,
+      "gained_experience": 136,
+      "total_experience": 146
+    },
+    {
+      "order": 16,
+      "player_id": 16,
+      "gained_experience": 100,
+      "total_experience": 178
+    }
+  ]
+}
