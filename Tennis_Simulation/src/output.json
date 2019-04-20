@@ -3,74 +3,74 @@
     {
       "order": 1,
       "player_id": 8,
-      "gained_experience": 920,
-      "total_experience": 1020
+      "gained_experience": 911,
+      "total_experience": 1011
     },
     {
       "order": 2,
       "player_id": 15,
-      "gained_experience": 844,
-      "total_experience": 935
+      "gained_experience": 853,
+      "total_experience": 944
     },
     {
       "order": 3,
-      "player_id": 4,
-      "gained_experience": 683,
-      "total_experience": 753
+      "player_id": 12,
+      "gained_experience": 692,
+      "total_experience": 764
     },
     {
       "order": 4,
-      "player_id": 12,
-      "gained_experience": 665,
-      "total_experience": 737
+      "player_id": 4,
+      "gained_experience": 656,
+      "total_experience": 726
     },
     {
       "order": 5,
       "player_id": 5,
-      "gained_experience": 639,
-      "total_experience": 689
+      "gained_experience": 630,
+      "total_experience": 680
     },
     {
       "order": 6,
       "player_id": 9,
-      "gained_experience": 495,
-      "total_experience": 529
+      "gained_experience": 477,
+      "total_experience": 511
     },
     {
       "order": 7,
       "player_id": 7,
-      "gained_experience": 460,
-      "total_experience": 550
+      "gained_experience": 469,
+      "total_experience": 559
     },
     {
       "order": 8,
+      "player_id": 11,
+      "gained_experience": 424,
+      "total_experience": 489
+    },
+    {
+      "order": 9,
       "player_id": 13,
       "gained_experience": 423,
       "total_experience": 438
     },
     {
-      "order": 9,
-      "player_id": 11,
-      "gained_experience": 406,
-      "total_experience": 471
-    },
-    {
       "order": 10,
-      "player_id": 3,
-      "gained_experience": 325,
-      "total_experience": 375
-    },
-    {
-      "order": 11,
       "player_id": 2,
       "gained_experience": 315,
       "total_experience": 345
     },
     {
-      "order": 12,
+      "order": 11,
       "player_id": 6,
-      "gained_experience": 280,
-      "total_experience": 320
+      "gained_experience": 307,
+      "total_experience": 347
+    },
+    {
+      "order": 12,
+      "player_id": 3,
+      "gained_experience": 298,
+      "total_experience": 348
     },
     {
       "order": 13,

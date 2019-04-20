@@ -10,6 +10,7 @@ public class Game {
         Gson gson=new GsonBuilder().setPrettyPrinting().create(); // create converter
         HashMap<Integer,Integer> gainedExperience = new HashMap<Integer,Integer>(); // player id-gained experience as a hash
         HashMap<Integer,Player> Id_Player =new HashMap<>();
+        HashMap<Integer, ArrayList<Player>> playersToGainedExperience = new HashMap<Integer, ArrayList<Player>>(); // gained experience,player objects arraylist
 
         InputClass inputClass=null;
         try {
@@ -30,12 +31,31 @@ public class Game {
                         toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2,
                                 LinkedHashMap::new));
 
-
         List<Result> resultt=new ArrayList<Result>(); //fill the resultt list with result objects
-        int i=1;
-        for (Map.Entry<Integer, Integer> entry : sorted.entrySet()) {
-            resultt.add(new Result(i,entry.getKey(),entry.getValue(),Id_Player.get(entry.getKey()).getExperience()+entry.getValue()));
-            i++;
+
+        for (Map.Entry<Integer, Integer> entry : sorted.entrySet()) { // fill the playerToGainedExperience
+           if  (playersToGainedExperience.containsKey(entry.getValue())){ // if contains same gained experience score add object to arraylist
+               playersToGainedExperience.get(entry.getValue()).add(Id_Player.get(entry.getKey()));
+           }else{
+               playersToGainedExperience.put(entry.getValue(),new ArrayList<>(Arrays.asList(Id_Player.get(entry.getKey()))));
+           }
+        }
+        for (Map.Entry<Integer, ArrayList<Player>> entry : playersToGainedExperience.entrySet()) { // sort values of playersToGainedExperience
+            Comparator<Player> comparator = Comparator.comparing(e -> e.getExperience());
+            entry.getValue().sort(comparator.reversed()); // sort each arraylist player objects according to initial experience score
+        }
+
+        Map<Integer, ArrayList<Player>> reverseSortedMap = new TreeMap<Integer, ArrayList<Player>>(Collections.reverseOrder());
+        reverseSortedMap.putAll(playersToGainedExperience);
+
+
+        int order=1;
+        for (Map.Entry<Integer, ArrayList<Player>> entry : reverseSortedMap.entrySet()) { // add ordered object to resultt
+            for(int i=0;i<entry.getValue().size();i++){
+                //order,playerID,gained experience, total experience
+                resultt.add(new Result(order,entry.getValue().get(i).getId(),entry.getKey(),entry.getKey()+entry.getValue().get(i).getExperience()));
+                order++;
+            }
         }
 
         Output output=new Output();

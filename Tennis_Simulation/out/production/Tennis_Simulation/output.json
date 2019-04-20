@@ -3,14 +3,14 @@
     {
       "order": 1,
       "player_id": 8,
-      "gained_experience": 920,
-      "total_experience": 1020
+      "gained_experience": 911,
+      "total_experience": 1011
     },
     {
       "order": 2,
       "player_id": 15,
-      "gained_experience": 844,
-      "total_experience": 935
+      "gained_experience": 853,
+      "total_experience": 944
     },
     {
       "order": 3,
@@ -32,45 +32,45 @@
     },
     {
       "order": 6,
-      "player_id": 7,
-      "gained_experience": 478,
-      "total_experience": 568
+      "player_id": 9,
+      "gained_experience": 504,
+      "total_experience": 538
     },
     {
       "order": 7,
-      "player_id": 9,
-      "gained_experience": 468,
-      "total_experience": 502
+      "player_id": 7,
+      "gained_experience": 469,
+      "total_experience": 559
     },
     {
       "order": 8,
       "player_id": 13,
-      "gained_experience": 414,
-      "total_experience": 429
+      "gained_experience": 450,
+      "total_experience": 465
     },
     {
       "order": 9,
       "player_id": 11,
-      "gained_experience": 406,
-      "total_experience": 471
+      "gained_experience": 379,
+      "total_experience": 444
     },
     {
       "order": 10,
-      "player_id": 6,
-      "gained_experience": 325,
-      "total_experience": 365
+      "player_id": 3,
+      "gained_experience": 316,
+      "total_experience": 366
     },
     {
       "order": 11,
       "player_id": 2,
-      "gained_experience": 315,
-      "total_experience": 345
+      "gained_experience": 306,
+      "total_experience": 336
     },
     {
       "order": 12,
-      "player_id": 3,
-      "gained_experience": 307,
-      "total_experience": 357
+      "player_id": 6,
+      "gained_experience": 280,
+      "total_experience": 320
     },
     {
       "order": 13,
@@ -81,8 +81,8 @@
     {
       "order": 14,
       "player_id": 14,
-      "gained_experience": 172,
-      "total_experience": 206
+      "gained_experience": 181,
+      "total_experience": 215
     },
     {
       "order": 15,
